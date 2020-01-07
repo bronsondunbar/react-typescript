@@ -9,8 +9,12 @@ interface State {
 };
 
 export default class Counter extends Component<Props, State> {
+  // static defaultProps: Props = {
+  //   count: 1
+  // };
+
   state: State = {
-    count: 0
+    count: 1
   };
 
   increment = () => {
